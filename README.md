@@ -1,0 +1,2 @@
+# manalive
+self_project
