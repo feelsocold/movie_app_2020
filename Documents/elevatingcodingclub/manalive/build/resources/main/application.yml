@@ -1,0 +1,25 @@
+server:
+  port: 8888
+
+spring:
+  profiles:
+    include: oauth
+
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+      poll-interval: 2s
+
+  mustache:
+    cache: false
+
+  datasource:
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+
+
+  ##spring.datasource.url=jdbc:log4jdbc:oracle:thin:@
+
+#logging:
+ # level: debug
